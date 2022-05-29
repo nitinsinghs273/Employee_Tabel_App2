@@ -1,0 +1,44 @@
+.App {
+  
+    text-align: center;
+  }
+  *{
+    background-color:#e0e2e7 ;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  
+ 
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .logoutB{
+    border: 2px solid #FFBD59;
+    border-radius: 28px;
+    padding: 9px;
+    text-align:center;
+    justify-content:center ;
+    margin: 30px;
+    
+    
+    background-color:#FFBD59;
+    font-size:small;
+    width: 300px;
+  
+  }
+  
+  
