@@ -1,5 +1,5 @@
-import {BrowserRouter,useNavigate,Routes,Route} from 'react-router-dom';
-import {lazy,Suspense,useEffect,useState } from 'react';
+import {Routes,Route} from 'react-router-dom';
+
 import './App.css';
 import Home from './Home.js';
 import Detail from './EmployeeDetail.js';
