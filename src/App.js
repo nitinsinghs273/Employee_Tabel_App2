@@ -1,17 +1,18 @@
-import {Routes,Route} from 'react-router-dom';
+import {BrowserRouter,useNavigate,Routes,Route} from 'react-router-dom';
+import {lazy,Suspense,useEffect,useState } from 'react';
 import './App.css';
-import Signup from './Signup.js';
-import OTP from './OTP.js';
-import LAST from './LAST.js';
+import Home from './Home.js';
+import Detail from './EmployeeDetail.js';
 
-function App() {
+
+const App = () => {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Signup/>}/>
-     <Route exact path ="/otp" element={<OTP/>}/>
+      <Route path="/" element={<Home/>}/>
+     <Route exact path ="/detail" element={<Detail/>}/>
       
-      <Route path ='/last' element={<LAST/>}/>
+      
     </Routes>
     </>
     
