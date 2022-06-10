@@ -1,11 +1,11 @@
-import logo from './transprent-logo.png';
+
 
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { lazy, Suspense, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
-import Detail from './EmployeeDetail.js';
+
 
 function Home() {
   const [employeeList, setemployeeList] = useState([])
