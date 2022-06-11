@@ -1,0 +1,159 @@
+.container{
+    background-color:  #e0e2e7;
+    
+    text-align: center;
+}
+*{
+    background-color: #e0e2e7;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    text-align: center;
+    padding: 8px;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+.header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 1000;
+    padding: 15px 32px;
+    text-align: center;
+   
+}
+.button{
+    border: 2px solid #FFBD59;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    padding: 9px;
+    display: flex;
+    margin-left: 80px;
+    text-align: center;
+    
+     font-size:small;
+    width: 120px;
+    margin-bottom: 18px;
+    margin-top: 18px; 
+}
+.button1{
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 32px;
+    
+}
+.button2
+{
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 32px;  
+}
+.button3
+{
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 32px;  
+}
+.small-container{
+    background-color: #e0e2e7;
+   
+}
+#name,#mobile,#email,#age,input[type=text]{
+    width: 60%;
+    align-items: flex-start;
+    padding: 12px 20px;
+    margin: 20px 0;
+    margin-right: 10px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+.submittbutton{
+    background-color:blue;
+
+    padding: 9px;
+    text-align:center;
+    width: 80px;
+    margin-top: 18px;
+    border-radius: 5px;
+    color: white; 
+    
+}
+.mutted-button{
+    background-color: white;
+   
+    padding: 9px;
+    border-radius: 5px;
+    text-align:center;
+    width: 80px;
+    margin-top: 18px; 
+    
+    
+}
+.label{
+    color: black;
+    display: flex;
+    margin-inline-start: 50px;
+    
+
+}
+.Detail{
+    text-align: center;
+}
+.details{
+    
+  display: inline;
+    text-align: center;
+    gap: 200px;
+    column-span: all;
+    font-size: medium;
+    margin-left: 30%;
+    position: relative;
+}
+.labels{
+    font-size: medium;
+    font-weight: bold;
+    
+}
+.button4{
+    
+    background-color:blue;
+
+    padding: 9px;
+    text-align:center;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white; 
+}
+.pagination {
+    display: inline-flex;
+  }
+  
+  .pagination a {
+    align-items: center;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .4s;
+    border: 1px solid silver;
+  }
+  
+  .pagination a.active {
+    background-color: blue;
+    color: white;
+    
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
