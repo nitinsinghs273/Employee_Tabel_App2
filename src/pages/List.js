@@ -14,7 +14,7 @@ import Pagination from '../pagination';
   const [employeeList, setemployeeList] = useState([]);
   const navigate = useNavigate();
 
-  const [currentPage, setCurrentPage] = useState(1);
+  const [setCurrentPage] = useState(1);
   const [postsPerPage] = useState(1);
   
 
@@ -48,8 +48,8 @@ import Pagination from '../pagination';
   },[])
 
    // Get current posts
-   const indexOfLastPost = currentPage * postsPerPage;
-   const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  //  const indexOfLastPost = currentPage * postsPerPage;
+  //  const indexOfFirstPost = indexOfLastPost - postsPerPage;
   //  const currentPosts = employeeList.slice(indexOfFirstPost, indexOfLastPost);
  
    // Change page
