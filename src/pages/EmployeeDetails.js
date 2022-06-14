@@ -3,10 +3,12 @@ import {  useEffect} from 'react';
 import axios from 'axios';
 import React from 'react';
 import './Home.css';
+import { useNavigate } from 'react-router-dom';
 
 
 function EmployeeDetails() {
   const [employee, setemployee] = React.useState(null);
+  const navigate = useNavigate();
 
 
   const fecthEmployeeDetails = async () => {
@@ -24,7 +26,7 @@ function EmployeeDetails() {
     <main style={{ padding: "1rem 0" }}>
       <h2 className='Detail' >Employee Details</h2>
 
-      <button className='button1' >Back</button>
+      <button className='buttonB' onClick={()=>navigate('/')}>Back</button>
       {employee != null ? (
         <div>
           <div className='details'>

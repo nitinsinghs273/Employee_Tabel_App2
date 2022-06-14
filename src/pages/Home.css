@@ -157,3 +157,14 @@ table {
   }
   
   .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  .buttonB{
+    background-color: blue;
+    padding: 9px;
+    text-align:center;
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+  }
